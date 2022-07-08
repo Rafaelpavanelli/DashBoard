@@ -1,0 +1,46 @@
+
+.Login-area{
+
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  
+  width:100vw;
+  height: 100vh;
+  background-image: url(./image/unnamed.png);
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  
+
+
+}
+
+h1{
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+form{
+  background-color: rgba(188, 179, 0, 0.676);
+  border:1px solid black;
+  width: 40vw;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+input{
+  border-radius:20px;
+  border:1px solid blue;
+  text-align:center;
+  width: 20vw;
+  margin: 10px;
+}
+button{
+  margin: 10px;
+  border: 1px solid white;
+  border-radius: 30%;
+  padding: 10px;
+  background-color: blue;
+  color: white;
+}
